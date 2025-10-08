@@ -1,0 +1,34 @@
+/* Custom CSS: Minimal Styling */
+
+body {
+    /* Ensure footer stays at the bottom on short pages */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex-grow: 1;
+    /* Allows content section to expand and push the footer down */
+}
+
+
+/* Custom color for the navbar and primary elements */
+
+.bg-primary {
+    background-color: #34495e !important;
+    /* Dark slate blue */
+}
+
+.text-primary {
+    color: #34495e !important;
+}
+
+
+/* Styling for the content area on the single post page */
+
+.post-content {
+    line-height: 1.8;
+    color: #333;
+    font-size: 1.1rem;
+}
